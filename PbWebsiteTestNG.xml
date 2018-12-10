@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name= "Paperboy Automation Test" verbose="1" >
+		
+		
+		<test name= "Smoke Testcases">
+		<classes>
+<!-- 		    <class name= "paperboyTestScripts.Login" />
+			<class name= "paperboyTestScripts.LoginRedirection" /> -->
+ 			<class name= "paperboyTestScripts.Search"/>
+<!-- 			<class name= "paperboyTestScripts.ForgotPassword" />
+			<class name= "paperboyTestScripts.ChangePassword" />
+			<class name= "paperboyTestScripts.MetaContents" />
+			<class name= "paperboyTestScripts.Subscribe" />
+			<class name= "paperboyTestScripts.SubscribeThruLogin" /> -->
+		</classes>
+		</test>
+
+
+</suite>

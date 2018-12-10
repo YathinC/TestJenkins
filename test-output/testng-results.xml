@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[-----Browser launch successfully-----]]>
+    </line>
+  </reporter-output>
+  <suite name="Paperboy Automation Test" duration-ms="39682" started-at="2018-12-10T12:48:27Z" finished-at="2018-12-10T12:49:07Z">
+    <groups>
+    </groups>
+    <test name="Smoke Testcases" duration-ms="39682" started-at="2018-12-10T12:48:27Z" finished-at="2018-12-10T12:49:07Z">
+      <class name="paperboyTestScripts.Search">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:paperboyTestScripts.Search@21213b92]" name="launchBrowser" is-config="true" duration-ms="22219" started-at="2018-12-10T12:48:27Z" finished-at="2018-12-10T12:48:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----Browser launch successfully-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC4a_SearchPaper()[pri:0, instance:paperboyTestScripts.Search@21213b92]" name="TC4a_SearchPaper" duration-ms="8738" started-at="2018-12-10T12:48:49Z" finished-at="2018-12-10T12:48:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4a_SearchPaper -->
+        <test-method status="PASS" signature="TC4b_SearchMagazine()[pri:0, instance:paperboyTestScripts.Search@21213b92]" name="TC4b_SearchMagazine" duration-ms="4212" started-at="2018-12-10T12:48:58Z" finished-at="2018-12-10T12:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4b_SearchMagazine -->
+        <test-method status="PASS" signature="TC4c_SearchState()[pri:0, instance:paperboyTestScripts.Search@21213b92]" name="TC4c_SearchState" duration-ms="4226" started-at="2018-12-10T12:49:02Z" finished-at="2018-12-10T12:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4c_SearchState -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:paperboyTestScripts.Search@21213b92]" name="closeBrowser" is-config="true" duration-ms="254" started-at="2018-12-10T12:49:07Z" finished-at="2018-12-10T12:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- paperboyTestScripts.Search -->
+    </test> <!-- Smoke Testcases -->
+  </suite> <!-- Paperboy Automation Test -->
+</testng-results>

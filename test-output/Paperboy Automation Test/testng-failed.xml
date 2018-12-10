@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Paperboy Automation Test]">
+  <test thread-count="5" name="Smoke Testcases(failed)">
+    <classes>
+      <class name="paperboyTestScripts.Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="TC1u_GoogleLogin"/>
+          <include name="TC1v_OtherFunctions"/>
+        </methods>
+      </class> <!-- paperboyTestScripts.Login -->
+    </classes>
+  </test> <!-- Smoke Testcases(failed) -->
+</suite> <!-- Failed suite [Paperboy Automation Test] -->
